@@ -1,0 +1,112 @@
+..nav-margins {
+    margin-bottom: 0px;
+}
+
+.title-bar {
+    background-color: #1bb09a;
+}
+
+.title-bar h1 {
+    color: white;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+strong, .color-green {
+  color: #1bb09a;
+}
+
+
+.bottom-bar {
+  background-color: #1bb09a;
+}
+
+.ok-icon {
+  color: white;
+}
+
+.list-tittle{
+  color: white;
+}
+
+.body-right {
+  margin-top: 40px;
+}
+
+.body-left {
+  margin-top: 100px;
+}
+
+.bottom-left-side li {
+  color: white;
+  list-style-type: none;
+  font-size: 16px;
+  line-height: 30px;
+  padding-top: 5px;
+}
+
+.bottom-left-side {
+  padding: 40px 0px 40px 100px;
+}
+
+.bottom-right-side {
+  padding: 40px 0px 40px 100px;
+}
+
+.bottom-bar{
+  margin-top: 20px;
+}
+
+.bottom-nav {
+  background-color: #333333;
+  padding: 5px 0 5px 0px;
+  line-height: 60px;
+}
+
+.bottom-nav-list {
+  color: white;
+  padding: 0px;
+}
+
+.bottom-nav-list li {
+  display: inline-block;
+}
+
+.bottom-nav-list .copyright {
+  color: white;
+}
+
+.bottom-nav-list ul{
+  padding: 0;
+}
+
+@media screen and (max-width: 780px) {
+    .bottom-nav ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .bottom-nav li {
+      font-size: 25px;
+      margin: 20px;
+    }
+
+    .text-right {
+      text-align: center;
+      font-size: 20px;
+    }
+
+    .bottom-left-side {
+      padding: 40px 0px 40px 35px;
+    }
+
+    .list-tittle{
+      padding-left: 34px;
+    }
+
+    .bottom-left-side ul{
+    color: white;
+    padding-left: 35px;
+    }
+}
